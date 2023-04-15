@@ -11,6 +11,7 @@
 - **hidive_android.py**
 - **hidive_web.py**
 - **itunes.py**
+- **hulu.py**
 - **paravi_jp.py**
 - **github.py**
 - **plutotv.py**

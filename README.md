@@ -17,6 +17,7 @@
 - **tiktok.py**
 - **udemy.py**
 - **youTube.py**
+- **openai.py**
 
 > **Warning**
 >

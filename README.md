@@ -21,7 +21,5 @@
 > **Warning**
 >
 > I don't plan to update this at all, I'm only uploading this for educational, and archival purposes.
-
-This is the original version of the script that a few others are based on.
-
-This repository is about showing the clients of each possible stream showing the use of its API, they are not download scripts although you can use it to help you to create your own downloader, DRM support is not offered in this repository.
+>
+> This repository is about showing the clients of each possible stream showing the use of its API, they are not download scripts although you can use it to help you to create your own downloader, DRM support is not offered in this repository.

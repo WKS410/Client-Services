@@ -15,6 +15,7 @@
 - **paravi_jp.py**
 - **github.py**
 - **plutotv.py**
+- **msl.py**
 - **spotify.py**
 - **tiktok.py**
 - **udemy.py**

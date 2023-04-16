@@ -11,6 +11,7 @@
 - **hidive_android.py**
 - **hidive_web.py**
 - **itunes.py**
+- **viki.py**
 - **hulu.py**
 - **bilibili.py**
 - **paravi_jp.py**

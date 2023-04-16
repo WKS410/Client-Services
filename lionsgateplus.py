@@ -29,17 +29,19 @@ class StarzClient:
         
         # Make an OPTIONS request to the auth URL to retrieve the auth token
         options_response = requests.options(self.auth_url, headers=self.headers)
-        self.auth_token = options_response.headers['authtokenauthorization']
+        if 'authtokenauthorization' in options_response.headers:
+            self.auth_token = options_response.headers['authtokenauthorization']
         
         # Add the auth token to the headers and make a POST request to login
-        self.headers['authtokenauthorization'] = self.auth_token
-        response = requests.post(self.auth_url, headers=self.headers, json=json_data)
-        
-        # Check if the login was successful
-        if response.status_code == 200 and response.json().get('success'):
-            print('Login successful!')
-        else:
-            print('Login failed. Please check your email and password.')
+        if self.auth_token:
+            self.headers['authtokenauthorization'] = self.auth_token
+            response = requests.post(self.auth_url, headers=self.headers, json=json_data)
+            
+            # Check if the login was successful
+            if response.status_code == 200 and response.json().get('success'):
+                print('Login successful!')
+                return
+        print('Login failed. Please check your email and password.')
 
     def get_movie(self, movie_id):
         url = f"{self.base_url}/movies/{movie_id}"

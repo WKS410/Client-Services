@@ -11,6 +11,7 @@
 - **hidive_android.py**
 - **hidive_web.py**
 - **itunes.py**
+- **rakutentv.py**
 - **kocowa.py**
 - **viki.py**
 - **hulu.py**

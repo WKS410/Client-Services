@@ -8,6 +8,7 @@
 - **americatvgo.py**
 - **animeonegai.py**
 - **braviacore.py**
+- **hotstar.py**
 - **hidive_android.py**
 - **hidive_web.py**
 - **itunes.py**

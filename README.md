@@ -9,6 +9,7 @@
 - **animeonegai.py**
 - **braviacore.py**
 - **hotstar.py**
+- **lionsgateplus.py**
 - **hidive_android.py**
 - **hidive_web.py**
 - **itunes.py**
